@@ -22,18 +22,83 @@
       <h1>
 <a id="changr" class="anchor" href="#changr" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changr</h1>
 
-<p>Final project for Makers Academy. Working in an agile team we built an IOS app in <strong>Swift</strong>, a language none of us had any prior experience with. With this project we wanted to help the less advantaged in our society to receive donations on the fly using a location-aware app thanks to <strong>Bluetooth Beacons</strong>.</p>
+<ul>
+<li><a href="#the-idea">The Idea</a></li>
+<li><a href="#user-stories">User Stories</a></li>
+<li><a href="#app-snapshots-and-video">App Snapshots &amp; Video</a></li>
+<li><a href="#download-instructions">Download Instructions</a></li>
+<li><a href="#contributions">Contributions</a></li>
+</ul>
+
+<h2>
+<a id="the-idea" class="anchor" href="#the-idea" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Idea</h2>
+
+<p>Working in an agile team we built an iOS app in <strong>Swift</strong>, a language none of us had any prior experience with. With this project we wanted to help those who are homeless in our society to receive donations on the fly using a location-aware app thanks to <strong>Bluetooth Beacons</strong>.</p>
+
+<p>The idea is that a homeless person is assigned an <strong>Estimote Beacon</strong> that could transmit a bluetooth signal to a smartphone. Then, whenever somebody walks past this person they receive a <strong>notification</strong> on their phone detailing information about this particular person. More importably, when they swipe the notification and open up the app they are given the opportunity to donate some money via <strong>PayPal</strong> to the homeless person.</p>
 
 <p>Using a TDD approach, we had to write <a href="https://github.com/samover/FirebaseMock">an ad-hoc mock</a> for <strong>Firebase</strong> in Swift, which we tested using <strong>Quick/Nimble</strong>. Unit testing was done through <strong>XCTest</strong>.</p>
+
+<h2>
+<a id="user-stories" class="anchor" href="#user-stories" aria-hidden="true"><span class="octicon octicon-link"></span></a>User Stories</h2>
+
+<h4>
+<a id="donor" class="anchor" href="#donor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Donor:</h4>
+
+<pre><code>As an app-user
+So that I can start making donations
+I want to register my app with PayPal
+
+As a passer-by
+So that I know there is someone I can give money to
+I want to receive a push notification on my phone
+
+As a passer-by
+So that I know who the person I am giving money to is
+I want to see this person's profile on my phone
+
+As a very generous person
+So that I can help this person
+I want to donate money
+
+As a person who wants to improve the world
+So that I can aid a person in need
+I want to be able to send a message of encouragement
+</code></pre>
+
+<h4>
+<a id="receiver" class="anchor" href="#receiver" aria-hidden="true"><span class="octicon octicon-link"></span></a>Receiver:</h4>
+
+<pre><code>As a person asking for money
+So that passers-by can see my profile on their phone app
+I want to create my own profile
+
+As a person asking for money
+So that I can receive money
+I want to connect my profile with PayPal
+
+As a person asking for money
+So that passers-by can see my profile on their phone app
+I want to link my ibeacon with my online profile
+
+As a person asking for money
+So that I can see how much money I have
+I want to view my account balance on my profile
+</code></pre>
+
+<h2>
+<a id="app-snapshots-and-video" class="anchor" href="#app-snapshots-and-video" aria-hidden="true"><span class="octicon octicon-link"></span></a>App Snapshots and Video</h2>
+
+<p>A slideshow of the app features/snapshots can be found on <a href="https://hsheikhm.wordpress.com/2016/01/10/final-project-complete-changr/">WordPress</a></p>
 
 <p>The presentation video of the app can be found on <a href="https://youtu.be/AyVZJ511cqI?t=96">Youtube</a></p>
 
 <h2>
-<a id="how-to-install" class="anchor" href="#how-to-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to install?</h2>
+<a id="download-instructions" class="anchor" href="#download-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download Instructions</h2>
 
 <ul>
 <li>Make sure you have XCode 7.2 installed</li>
-<li>Clone the project</li>
+<li>Clone this repo</li>
 <li>Add Carthage frameworks running <code>carthage bootstrap</code>
 </li>
 <li>Add <a href="https://github.com/paypal/PayPal-iOS-SDK">Paypal SDK</a> to the project files. You probably want to import them into your project.</li>
@@ -43,7 +108,7 @@
 </ul>
 
 <h2>
-<a id="how-to-contribute" class="anchor" href="#how-to-contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to contribute?</h2>
+<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributions</h2>
 
 <p>This was a two week project. We would love to bring this app forward. Contact <a href="mailto:changr@samover.33mail.com">the makers</a> if you are interested.</p>
 
