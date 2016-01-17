@@ -4,6 +4,7 @@
 * [User Stories](#user-stories)
 * [App Snapshots & Video](#app-snapshots-and-video)
 * [Download Instructions](#download-instructions)
+* [Contributions](#contributions)
 
 ## The Idea
 
@@ -15,8 +16,8 @@ Using a TDD approach, we had to write [an ad-hoc mock](https://github.com/samove
 
 ## User Stories
 
-Donor:
-------
+#### Donor:
+
 ```
 As an app-user
 So that I can start making donations
@@ -39,8 +40,8 @@ So that I can aid a person in need
 I want to be able to send a message of encouragement
 ```
 
-Receiver:
-------------------------
+#### Receiver:
+
 ```
 As a person asking for money
 So that passers-by can see my profile on their phone app
@@ -61,17 +62,19 @@ I want to view my account balance on my profile
 
 ## App Snapshots and Video
 
+A slideshow of the app features/snapshots can be found on [WordPress](https://hsheikhm.wordpress.com/2016/01/10/final-project-complete-changr/)
+
 The presentation video of the app can be found on [Youtube](https://youtu.be/AyVZJ511cqI?t=96)
 
-How to install?
----------------
+## Download Instructions
+
 * Make sure you have XCode 7.2 installed
-* Clone the project
+* Clone this repo
 * Add Carthage frameworks running `carthage bootstrap`
 * Add [Paypal SDK](https://github.com/paypal/PayPal-iOS-SDK) to the project files. You probably want to import them into your project.
 * Add Firebase Framework to project. Follow these [instructions](https://www.firebase.com/docs/ios/alternate-setup.html)
 * Plug in your phone and build the app
 
-How to contribute?
-------------------
+## Contributions
+
 This was a two week project. We would love to bring this app forward. Contact [the makers](mailto:changr@samover.33mail.com) if you are interested.
