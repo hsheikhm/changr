@@ -25,7 +25,7 @@ So that I can aid a person in need
 I want to be able to send a message of encouragement
 ```
 
-Person asking for money:
+Receiver:
 ------------------------
 ```
 As a person asking for money
